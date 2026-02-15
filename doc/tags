@@ -1,0 +1,3 @@
+:Compile	compile.nvim.txt	/*:Compile*
+:Recompile	compile.nvim.txt	/*:Recompile*
+compile.nvim.txt	compile.nvim.txt	/*compile.nvim.txt*
