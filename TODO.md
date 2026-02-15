@@ -1,6 +1,7 @@
 # TODO
 
-- [x] Add a :compile command that runs the given command in :make
-- [x] Add a :recompile command that reuses the last compile command
-- [ ] Write help file
-- [ ] Cleanup plugin ?
+- [ ] Tests
+- [ ] Cleanup plugin commands?
+- [ ] Should the initialization be done in require('compile.nvim').setup(opts),
+  or should it switch to changing vim.g.<...> ?
+- [ ] Everything in the API is public at the moment :(
