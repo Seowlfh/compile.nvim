@@ -27,6 +27,10 @@ jobs:
       with:
         luaVersion: "luajit-openresty"
 
-    - name: Run Unit Tests
+    - name: Setup dependencies
+      shell: bash
+      run: git clone --depth 1 https://github.com/nvim-lua/plenary.nvim ../plenary.nvim
+
+    - name: Setup dependencies
       shell: bash
       run: make test
