@@ -1,6 +1,6 @@
 set rtp+=.
-set rtp+=../plenary.nvim/
-set rtp+=/home/teto/.local/share/nvim/lazy/plenary.nvim
-
+set rtp+=../plenary.nvim/                       " Classical plugin path
+set rtp+=~/.local/share/nvim/lazy/plenary.nvim  " For lazy.nvim users
+ 
 runtime! plugin/plenary.vim
 runtime! plugin/compile.nvim

@@ -27,3 +27,7 @@ Installation with [lazy.nvim](https://github.com/folke/lazy.nvim):
     opts = {}, -- No configuration is available
 }
 ```
+
+## Contributing
+
+More information in [CONTRIBUTING.md](./CONTRIBUTING.md)
